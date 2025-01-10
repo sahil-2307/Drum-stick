@@ -34,6 +34,34 @@ for (var i = 0;i<len;i++){
     )
 
 }
+document.addEventListener('keypress',function(event){
+    var keyboard = event.key
+    if (keyboard==='w'){
+        var audio = new Audio("sounds/crash.mp3")
+        audio.play()
+    }else if (keyboard==='a'){
+        var audio = new Audio("sounds/crash.mp3")
+        audio.play()
+    }else if (keyboard==='a'){
+        var audio = new Audio("sounds/kick-bass.mp3")
+        audio.play()
+    }else if (keyboard==='s'){
+        var audio = new Audio("sounds/snare.mp3")
+        audio.play()
+    }else if (keyboard==='d'){
+        var audio = new Audio("sounds/tom-1.mp3")
+        audio.play()
+    }else if (keyboard==='j'){
+        var audio = new Audio("sounds/tom-2.mp3")
+        audio.play()
+    }else if (keyboard==='k'){
+        var audio = new Audio("sounds/tom-3.mp3")
+        audio.play()
+    }else if (keyboard==='l'){
+        var audio = new Audio("sounds/tom-4.mp3")
+        audio.play()
+    }
+})
 
 
 
